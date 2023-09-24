@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ini adalah judul halaman web yang akan ditampilkan di bilah judul browser.-->
+    <title>Portofolio</title>
+    <!--Ini adalah elemen untuk menghubungkan halaman dengan berkas CSS eksternal yang disebut "stylesheet.css". 
+        Ini akan mengatur tampilan dan gaya halaman web.-->
+    <link rel="stylesheet" href="stylesheet.css">
+    <!--Ini adalah elemen untuk menghubungkan halaman dengan berkas CSS eksternal dari CDN (Content Delivery Network) yang disebut "boxicons.min.css". 
+        Ini digunakan untuk ikon dan gaya tambahan.-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Ini adalah elemen untuk menghubungkan halaman dengan berkas JavaScript eksternal dari CDN yang disebut "typed.umd.js". 
+        Ini digunakan untuk efek teks animasi atau fungsi JavaScript lainnya.-->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+
+
+    <!--Ini adalah elemen header yang mungkin berisi elemen-elemen seperti logo dan menu navigasi.-->
+    <header class="header">
+        <!--Ini adalah tautan (link) yang berisi teks "Muhammad Firdillah" dan mengarahkan ke lokasi yang ditentukan oleh atribut href="#". 
+            Ini digunakan sebagai logo atau judul situs.-->
+        <a href="#" class="logo">Muhammad Firdillah</a>
+        
+        <!--Ini adalah elemen navigasi yang berisi daftar tautan menu navigasi.-->
+        <nav class="navbar">
+            <!--Ini adalah tautan menu dengan teks "Home" yang mengarahkan ke elemen dengan id="home" di dalam halaman. 
+                Atribut style="--i:1" digunakan untuk memberikan gaya khusus kepada tautan ini, dan atribut class="active" menunjukkan bahwa tautan ini saat ini aktif.-->
+            <a href="#home" style="--i:1"class="active" >Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:4">Portofolio</a>
+            <a href="#skills" style="--i:4">Skills</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+
+    <!--Ini adalah elemen <section> dengan atribut class bernama "home". Elemen <section> digunakan untuk mengelompokkan konten yang terkait dalam halaman web. 
+        Ini digunakan untuk bagian beranda atau beranda dari halaman web Anda.-->
+    <section class="home">
+        <!--Ini adalah elemen <div> dengan atribut class bernama "home-content". 
+            Elemen ini berada di dalam <section> "home" dan digunakan untuk mengelompokkan konten utama dalam bagian "home" tersebut.-->
+        <div class="home-content">
+            <!--Ini adalah elemen heading level 3 (<h3>) yang berisi teks "Hello, It's Me". Ini adalah judul atau subjudul dalam bagian "home".-->
+            <h3>Hello, It's Me</h3>
+            <!--Ini adalah elemen heading level 1 (<h1>) yang berisi teks "Muhammad Firdillah". Ini digunakan sebagai judul utama atau nama pengguna dalam beranda.-->
+            <h1>Muhammad Firdillah</h1>
+            <!--Ini adalah elemen <h3> yang berisi teks "And I'm a" dan elemen <span> dengan atribut class "text". 
+                Elemen <span> ini mungkin digunakan untuk menampilkan teks yang akan diisi secara dinamis melalui JavaScript atau CSS.-->
+            <h3>And I'm a <span class="text"></span></h3>
+            <!--Ini adalah elemen paragraf (<p>) yang berisi teks deskripsi tentang diri Anda dan keterampilan Anda sebagai seorang desainer web. 
+                <br> digunakan untuk membuat baris baru dalam paragraf.-->
+            <p>Saya Desainer web dengan pengalaman luas selama lebih dari 3 tahun.
+                <br>keahliannya adalah membuat dan mendesain website, desain Frontend, dan masih banyak lagi...</p></br>
+                <!--Ini adalah elemen <div> dengan atribut class bernama "home-sci". Elemen ini mungkin digunakan untuk mengelompokkan ikon media sosial atau tautan ke media sosial.-->
+            <div class="home-sci">
+                <!--Ini adalah tautan (<a>) ke media sosial Facebook dll. Atribut href="#" mengarahkan ke tautan yang tidak ditentukan. 
+                    Atribut style mdigunakan untuk memberikan gaya khusus, dan --i:7 mungkin digunakan untuk mengatur posisi ikon.-->
+                <a href="#" style="--i:7"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" style="--i:10"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="#" style="--i:11"><i class='bx bxl-tiktok' ></i></a>
+            </div>
+            <!--Ini adalah tautan ke halaman lain atau bagian lain dari situs web dengan teks "More About Me". 
+                Atribut class "btn-box" digunakan untuk memberikan gaya khusus agar terlihat seperti tombol.-->
+            <a href="#" class="btn-box"> More About Me</a>
+            </div>
+        </div>
+        <span class="home-imghover"></span>
+    </section>
+
+    <!--Elemen ini digunakan untuk mengelompokkan konten yang terkait dengan bagian "About Me" dalam halaman web. 
+        Atribut id "about" juga berfungsi sebagai penanda tautan untuk langsung mengarahkan ke bagian ini jika tautan mengandung href="#about".-->
+    <section class="about" id="about">
+        <!--Elemen ini mungkin digunakan untuk menampilkan gambar profile-->
+        <div class="about-img">
+            <img src ="https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Free-Image.png">
+        </div>
+        <!--Elemen ini digunakan untuk mengelompokkan teks dan judul yang menjelaskan tentang diri saya-->
+        <div class="about-text">
+            <!--Ini digunakan untuk memberikan gaya khusus pada kata "Me".-->
+            <h2>About<span>Me</span></h2>
+            <!--Ini adalah gelar atau posisi diri saya.-->
+            <h4>Full Stack Developer</h4>
+            <!--Ini adalah elemen paragraf yang berisi deskripsi tentang diri saya-->
+            <p>Saya seorang desainer web terampil dengan pengalaman lebih dari 3 tahun di industri ini.
+                Gairah saya terletak pada menciptakan desain situs web yang menawan dan menerapkannya
+                melalui Pengembangan Front-end. Saya bangga tetap mengikuti perkembangan terkini
+                tren desain dan memanfaatkan kreativitas saya untuk menghasilkan produk yang menarik secara visual dan
+                situs web yang ramah pengguna. Sepanjang karir saya, saya telah mengembangkan pemahaman yang mendalam
+                prinsip pengalaman pengguna (UX) dan antarmuka pengguna (UI). Dengan menempatkan diriku di dalamnya
+                sebagai pengguna akhir, saya berusaha menciptakan penjelajahan yang intuitif dan lancar
+                pengalaman saya, saya percaya bahwa situs web yang dirancang dengan baik seharusnya tidak hanya terlihat secara visual
+                menarik namun juga memberikan interaksi yang lancar dan menyenangkan bagi pengunjung. Kapan
+                memulai proyek baru, saya meneliti dan menganalisis secara menyeluruh target audiens dan
+                kebutuhan spesifik klien. Hal ini memungkinkan saya untuk menyesuaikan desain saya agar sesuai
+                harapan mereka dan menghadirkan kehadiran online unik yang selaras dengan harapan mereka
+                identitas merek.
+            </p>
+            <!--ni adalah tautan yang mengarahkan pengguna ke halaman atau bagian lain yang berisi lebih banyak informasi tentang diri saya. 
+                Teks tautan adalah "More About Me", dan atribut class "btn-box" digunakan untuk memberikan tampilan seperti tombol.-->
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section>
+        <!--Ini adalah elemen dengan atribut class "services" dan id "services". Elemen ini digunakan untuk mengelompokkan konten yang berkaitan dengan layanan saya. 
+                Atribut id "services" juga berfungsi sebagai penanda yang memungkinkan tautan untuk langsung mengarahkan ke bagian ini tautan mengandung href="#services".-->
+        <div class="services" id="services">
+            <!--Ini adalah elemen dengan atribut class "container". Elemen ini mungkin digunakan untuk mengelompokkan dan mengatur konten yang ada di dalamnya.-->
+            <div class="container">
+                <!--Ini adalah elemen heading level 1 yang memiliki atribut class "sub-title". Ini adalah judul bagian "Services" dengan kata "Services". 
+                    Ini digunakan untuk memberikan gaya khusus pada kata "Services".-->
+                <h1 class="sub-title">My<span>Services</span></h1>
+                <!--Ini adalah elemen dengan atribut class "services-list". Elemen ini digunakan untuk mengelompokkan daftar layanan yang akan di tampilkan.-->
+                <div class="services-list">
+                    <div>
+                        <!--Ini adalah elemen ikon dengan atribut class yang mengacu pada ikon tertentu dari ikon set (seperti FontAwesome atau Boxicons). 
+                            Warna ikon mungkin ditentukan dengan atribut style.-->
+                        <i class='bx bx-code' style='color:#00eeff'  ></i>
+                        <!--Ini adalah elemen heading level 2 yang berisi judul layanan. Dalam kasus ini, judulnya adalah "UI/UX Design".-->
+                        <h2>UI/UX Design</h2>
+                        <!--Ini adalah elemen paragraf yang berisi deskripsi tentang layanan yang saya tawarkan. 
+                            Deskripsi ini menjelaskan lebih rinci tentang apa yang Anda tawarkan sebagai desainer UI/UX.-->
+                        <p>Salam! Saya adalah seorang desainer UI/UX yang berkomitmen untuk membantu Anda menciptakan pengalaman pengguna 
+                            yang luar biasa dan antarmuka yang menawan untuk produk digital Anda. Dalam dunia yang semakin terhubung secara digital, 
+                            desain yang baik tidak hanya tentang penampilan visual, tetapi juga tentang bagaimana pengguna berinteraksi dengan produk Anda.</p>
+                            <!--Ini adalah tautan yang mengarahkan pengguna ke halaman atau lebih banyak informasi tentang layanan tersebut. Teks tautan adalah "Learn more".-->
+                            <a href="#" class="read">Lern more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-crop' style='color:#00eeff' ></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Salam! Saya adalah seorang desainer UI/UX yang berkomitmen untuk membantu Anda menciptakan pengalaman pengguna 
+                            yang luar biasa dan antarmuka yang menawan untuk produk digital Anda. Dalam dunia yang semakin terhubung secara digital, 
+                            desain yang baik tidak hanya tentang penampilan visual, tetapi juga tentang bagaimana pengguna berinteraksi dengan produk Anda.</p>
+                            <a href="#" class="read">Lern more</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-android' style='color:#00eeff' ></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Salam! Saya adalah seorang desainer UI/UX yang berkomitmen untuk membantu Anda menciptakan pengalaman pengguna 
+                            yang luar biasa dan antarmuka yang menawan untuk produk digital Anda. Dalam dunia yang semakin terhubung secara digital, 
+                            desain yang baik tidak hanya tentang penampilan visual, tetapi juga tentang bagaimana pengguna berinteraksi dengan produk Anda.</p>
+                            <a href="#" class="read">Lern more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Ini adalah elemen heading level 1 dengan atribut class "sub-title". Ini adalah judul bagian "My Skills" atau "Keterampilan Saya". 
+        Kata "Skills" dikelilingi oleh elemen <span>, yang digunakan untuk memberikan gaya khusus pada kata tersebut.-->
+    <h1 class="sub-title">My<span>Skills</span></h1>
+    <section>
+        <!--Ini adalah elemen yang digunakan untuk mengelompokkan konten yang terkait. Di dalamnya terdapat bagian yang akan menampilkan keterampilan teknis saya.-->
+        <div class="container1" id="skills">
+            <!--Ini adalah judul bagian "Technical Skills" atau "Keterampilan Teknis". 
+                Ini digunakan untuk memberikan judul untuk daftar keterampilan teknis yang akan ditampilkan.-->
+            <h1 class="heading1">Technical Skills</h1>
+            <!--Elemen ini digunakan untuk mengelompokkan daftar keterampilan teknis saya-->
+            <div class="Technical-bars">
+                <!--Elemen ini digunakan untuk mengelompokkan setiap keterampilan teknis beserta ikon, nama keterampilan, dan batang kemajuan..-->
+                <div class="bar"><i style="color: #c95d2e" class='bx bxl-html5' ></i>
+                <!--Elemen ini digunakan untuk mengelompokkan nama keterampilan teknis.-->
+                <div class="indfo">
+                        <!--Ini adalah elemen <span> yang berisi nama keterampilan teknis, yaitu "HTML, Css, Javascript, Python, React".-->
+                        <span>HTML</span>
+                    </div>
+                    <!--Elemen ini digunakan untuk menampilkan batang kemajuan yang menggambarkan sejauh mana saya memiliki keterampilan dalam HTML, Css, Javasvript, Python, React.-->
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar"><i class='bx bxl-css3' style='color:#147bbc' ></i>
+                <div class="indfo">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar"><i class='bx bxl-javascript' style='color:#b0bc1e' ></i>
+                    <div class="indfo">
+                        <span>Javascript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar"><i class='bx bxl-python' style='color:#c32ec9' ></i>
+                    <div class="indfo">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                
+                <div class="bar"><i class='bx bxl-react' style='color:#69bcbc' ></i>
+                    <div class="indfo">
+                        <span>React</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Elemen ini digunakan untuk mengelompokkan dan mengatur konten terkait dengan keterampilan profesional saya.-->
+        <div class="container1">
+            <!--Ini adalah judul bagian "Professional Skills" atau "Keterampilan Profesional". 
+                Ini digunakan untuk memberikan judul bagi bagian yang akan menampilkan keterampilan profesional saya.-->
+            <h1 class="heading1">Professional Skills</h1>
+            <!--Elemen ini digunakan untuk mengelompokkan semua grafik radial keterampilan profesional saya.-->
+            <div class="radial-bars">
+
+            <!--Elemen ini digunakan untuk mengelompokkan setiap grafik radial keterampilan profesional tertentu.-->
+            <div class="radial-bar">
+                <!--Ini adalah elemen SVG (Scalable Vector Graphics) yang digunakan untuk membuat grafik radial. 
+                    Atribut viewbox mendefinisikan area tampilan grafik, dan elemen ini akan digunakan untuk menggambar grafik lingkaran radial.-->
+                <svg x="0px" y="0px" viewbox="0 0 200 200">
+                    <!--Ini adalah elemen lingkaran SVG yang digunakan untuk menggambarkan batang kemajuan atau "progress bar" dari keterampilan profesional.
+                        Atribut class "progress-bar" digunakan untuk memilih elemen ini. Atribut cx dan cy menentukan pusat lingkaran, dan r adalah jari-jari lingkaran.-->
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <!--Elemen ini digunakan untuk menampilkan persentase atau tingkat keterampilan profesional dalam bentuk teks. Dalam contoh ini, persentase 90% ditampilkan.-->
+                <div class="percentage">90%</div>
+                <!--Elemen ini digunakan untuk menampilkan teks yang menggambarkan keterampilan profesional tersebut. Dalam contoh ini, teks "Creativity" ditampilkan.-->
+                <div class="text">Creativity</div>
+            </div>
+
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewbox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">65%</div>
+                <div class="text">Comunication</div>
+            </div>
+
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewbox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">75%</div>
+                <div class="text">Problem Solving</div>
+            </div>
+
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewbox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">85%</div>
+                <div class="text">Team Work</div>
+            </div>
+            </div>
+        </div>
+    </section>
+<section>
+
+    <!--Elemen ini digunakan untuk mengelompokkan dan mengatur konten terkait portofolio atau proyek.-->
+    <div id="portofolio" id="project">
+        <!--Elemen ini mdigunakan untuk mengelompokkan teks utama yang berhubungan dengan proyek terbaru.-->
+        <div class="main-text" id="project">
+            <!--Ini adalah elemen heading level 2 yang berisi judul "Latest Project" atau "Proyek Terbaru". 
+                Kata "Project" dikelilingi oleh elemen <span>, yang digunakan untuk memberikan gaya khusus pada kata tersebut.-->
+            <h2>Latest<span>Project</span></h2>
+
+            <!--Elemen ini digunakan untuk mengelompokkan konten proyek terbaru.-->
+            <div class="portofolio-content">
+                <!--Elemen ini digunakan untuk mengelompokkan informasi proyek terbaru dalam satu baris.-->
+                <div class="row">
+                    <!--Ini adalah elemen gambar (<img>) yang digunakan untuk menampilkan gambar proyek terbaru. Atribut src mengacu pada URL gambar yang akan ditampilkan.-->
+                    <img src="https://www.seoclerk.com/pics/690182-12DkFB1563912252.jpg">
+                    <!--Elemen ini digunakan untuk menampilkan informasi tambahan tentang proyek terbaru.-->
+                    <div class="layer">
+                        <!--Ini adalah elemen heading level 5 yang berisi judul "UI/UX Design" atau "Desain UI/UX". Ini adalah keterangan singkat tentang jenis proyek.-->
+                        <h5>UI/UX Design</h5>
+                        <!--Ini adalah elemen paragraf yang berisi deskripsi proyek terbaru. Deskripsi ini menjelaskan apa yang telah saya lakukan dalam proyek tersebut.-->
+                        <p>Saya telah merancang antarmuka pengguna yang mudah digunakan untuk berbagai produk digital, 
+                            dengan fokus pada kegunaan, tampilan yang menarik, dan komitmen untuk membantu produk mencapai 
+                            kesuksesan melalui desain yang baik.</p>
+                        <!--Ini adalah tautan yang mengarahkan pengguna ke proyek atau halaman terkait dengan proyek tersebut. 
+                            Tautan ini menggunakan ikon dari ikon set dengan atribut style untuk mengatur warna ikon menjadi (aliceblue).-->
+                        <a href="#"><i class='bx bx-link-external' style="color: aliceblue;"></i></a>
+                    </div>
+                </div>
+
+                <div class="portofolio-content">
+                    <div class="row">
+                        <img src="https://opulasoft.com/img/blog/Difference-between-UI,-UX-and-Web-Designer.jpg">
+                        <div class="layer">
+                            <h5>UI/UX Design</h5>
+                            <p>Saya telah merancang antarmuka pengguna yang mudah digunakan untuk berbagai produk digital, 
+                                dengan fokus pada kegunaan, tampilan yang menarik, dan komitmen untuk membantu produk mencapai 
+                                kesuksesan melalui desain yang baik.</p>
+                            <a href="#"><i class='bx bx-link-external' style="color: aliceblue;"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="portofolio-content">
+                        <div class="row">
+                            <img src="https://i.pinimg.com/originals/37/15/03/371503d0862977600b1ef93fb61e5a70.png">
+                            <div class="layer">
+                                <h5>UI/UX Design</h5>
+                                <p>Saya telah merancang antarmuka pengguna yang mudah digunakan untuk berbagai produk digital, 
+                                    dengan fokus pada kegunaan, tampilan yang menarik, dan komitmen untuk membantu produk mencapai 
+                                    kesuksesan melalui desain yang baik.</p>
+                                <a href="#"><i class='bx bx-link-external' style="color: aliceblue;"></i></a>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--!Elemen ini digunakan untuk mengelompokkan konten yang terkait dengan bagian "Contact Me" dalam halaman web. 
+    Atribut id "contact" juga berfungsi sebagai penanda tautan untuk langsung mengarahkan ke bagian tautan mengandung href="#contact".-->
+<section class="contact" id="contact">
+    <!--Elemen ini digunakan untuk mengelompokkan atau memberikan gaya khusus pada teks dan informasi kontak.-->
+    <div class="contact-text">
+        <!--Ini adalah judul bagian "Contact Me" dengan kata "Contact" yang dikelilingi oleh elemen <span>. 
+            Ini digunakan untuk memberikan gaya khusus pada kata "Me".-->
+        <h2>Contact<span>Me</span></h2>
+        <!--Ini digunakan untuk mengundang pengguna untuk bekerja sama atau menghubungi saya.-->
+        <h4>Let's Work Together</h4>
+        <!--Ini adalah elemen paragraf yang berisi deskripsi atau ajakan untuk berhubungan dengan saya. 
+            Teks ini menjelaskan bahwa saya siap membantu dalam desain UI/UX untuk situs web atau aplikasi mobile.-->
+        <p>"Apakah Anda mencari solusi dalam merancang UI/UX Design untuk sebuah Website/Mobile App? Saya siap membantu Anda. Dengan pengalaman dan keahlian dalam bidang ini, 
+            saya yakin dapat memberikan solusi terbaik. Mari kita diskusikan bagaimana saya dapat mendukung kebutuhan Anda untuk mencapai hasil yang diinginkan."</p>
+            <!--Elemen ini digunakan untuk mengelompokkan daftar informasi kontak.-->
+            <div class="contact-list">
+                <!--Ini adalah elemen daftar yang berisi alamat email dan nomor saya, yang dilengkapi dengan ikon pesan dan phone dari ikon set. 
+                    Ini adalah informasi kontak saya.-->
+                <li><i class='bx bxs-send'></i> muhammadfirdillah@gmail.com</li>
+                <li><i class='bx bxs-phone'></i> 081287373498</li>
+            </div>
+            <!--Elemen ini digunakan untuk mengelompokkan ikon media sosial atau tautan ke profil media sosial saya.-->
+            <div class="contact-icons">
+                <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-linkedin'></i></a>
+            </div>
+    </div>
+    <!--Elemen ini digunakan untuk mengelompokkan formulir kontak.-->
+    <div class="contact-form">
+        <!--Ini adalah elemen yang digunakan untuk menerima masukan dari pengguna.-->
+        <form action="">
+            <!--Ini adalah input untuk nama pengguna dengan atribut placeholder yang memberikan petunjuk kepada pengguna tentang jenis informasi yang diperlukan.-->
+            <input type="" placeholder="Enter Your Name" required>
+            <!--Ini adalah input untuk alamat email pengguna.-->
+            <input type="email" placeholder="Enter Your Email" required>
+
+            <!--Ini adalah input untuk subjek pesan.-->
+            <input type="" placeholder="Enter Your Subject" required>
+            <!--Ini adalah elemen textarea yang memungkinkan pengguna untuk memasukkan pesan atau pertanyaan lebih lanjut.-->
+            <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+            <!--Ini adalah tombol submit yang digunakan untuk mengirimkan formulir kontak.-->
+            <input type="submit" value="submit" class="send">
+        </form>
+    </div>
+</section>
+
+<!--Ini adalah elemen dengan atribut class "last-text". Elemen ini digunakan untuk mengelompokkan atau memberikan gaya khusus pada teks yang berikutnya.-->
+<div class="last-text">
+    <!--Ini adalah elemen paragraf yang berisi teks hak cipta dan nama saya sebagai pengembang, serta pernyataan "All Rights Reserved" yang menunjukkan bahwa semua hak dilindungi.-->
+    <p>Copyright © 2023 Muhammad Firdillah (Developer). All Rights Reserved</p>
+</div>
+<!--Ini adalah tautan dengan atribut class "top". Teks tautan digunakan untuk mengarahkan pengguna ke bagian atas halaman.-->
+<!--<i class='bx bx-up-arrow-alt'></i>: Ini adalah elemen ikon dengan atribut class yang mengacu pada ikon panah atas. 
+    Ikon ini digunakan untuk memberi tahu pengguna bahwa tautan ini akan membawa mereka ke bagian atas halaman..-->
+<a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+    <!--Ini adalah elemen <script> yang digunakan untuk menghubungkan atau mengeksekusi berkas JavaScript eksternal dengan nama "main.js".-->
+    <script src="main.js"></script>
+</body>
+</html>
